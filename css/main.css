@@ -1,0 +1,338 @@
+.body{
+	font-size:  14px;
+	font-family: Microsoft Yahei;
+}
+
+/*顶部登录条*/
+.header_con{
+	height: 29px;
+	background-color: #f5f5f5;
+	border-bottom: #d5d5d5 solid 1px;
+	text-align: center;
+}
+.header{
+	width: 1200px;
+	height: 29px;
+	margin: 0px auto;
+/*	background-color:gold;*/
+}
+.welcome{
+	font-size: 12px;
+	font-family: "Microsoft Yahei";
+	color: #666;
+	float: left;
+	line-height: 29px;
+}
+.top_right{
+	font-size: 12px;
+	font-family: "Microsoft Yahei";
+	color: #666;	
+}
+.top_right ul span{
+	margin: 10px;
+	color: #CECECE;
+}
+
+.login_btns li, .order_btns li{
+	float: left;
+	height: 29px;
+	line-height: 29px;
+	color: #666;
+}
+
+.login_btns a, .order_btns a{
+	color: #666;
+}
+
+.top_right ul li a:hover{
+	color: orange;
+}
+
+.user_info_btns{
+	height: 29px;
+	line-height: 29px;
+	color: #666;
+}
+.user_info_btns em{
+	color: orange;
+}
+
+
+
+
+
+/*logo样式*/
+.top_logo{
+	width: 1200px;
+	height: 115px;
+	margin: 0px auto;
+}
+.logo{
+	margin: 29px 0 0 17px;
+}
+
+.chart{
+	height: 38px;
+	width: 210px;
+	margin: 29px 0 0 0;
+}
+
+/*购物车入口样式*/
+.chart_style{
+	display: inline-block;
+	width: 158px;
+	height: 38px;
+	border: 1px solid #ddd;
+	font-size: 14px;
+	font-family: Microsoft Yahei;
+	color: #37ab40;
+	line-height: 40px;
+	text-indent: 56px;
+/*	background-image: url(../images/icons.png);
+	background-repeat: no-repeat;
+	background-position: 14px -43px;
+	background-color: #f7f7f7;*/
+	background:url(../images/icons.png) 12px -44px  no-repeat #f7f7f7;
+}
+
+/*购物车商品数量样式*/
+.chart_count{
+	width: 40px;
+	height: 40px;
+	background-color: orange;
+	text-align: center;
+	line-height: 40px;
+	color: #fff;
+	font-weight: bold;
+	border: 1px #fff;
+}
+
+
+/*搜索框定位*/
+.search{
+	width: 582px;
+	height: 38px;
+	margin: 34px 0 0 124px;
+	
+}
+
+.search_box{
+	width: 440px;
+	height: 38px;
+
+	line-height: 38px;
+	padding-left: 40px;
+	font-size: 14px;
+	color: #666;
+	outline: none;
+	background: url(../images/icons.png) 13px 10px no-repeat #fff;
+	border: none;
+	border: green 1px solid;
+
+}
+
+.search_btns{
+	width: 100px;
+	height: 40px;
+	background: green;
+	line-height: 40px;
+	text-align: center;
+	color: white;
+	border: none;
+}
+
+
+
+
+
+
+/*设置顶部tab栏*/
+.tab_box{
+	height: 40px;
+	border-bottom: 2px green solid;
+}
+
+.tab_box2{
+	width: 1200px;
+	height: 40px;
+	margin: 0px auto;
+}
+
+.tab_box2 span{
+	float: left;
+	color: green;
+	line-height: 40px;
+}
+
+
+.shop{
+	width: 200px;
+	height: 40px;
+	background: #39a93e;
+	text-align: center;
+	line-height: 40px;
+
+	color: white;
+}
+
+
+.first{
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	padding: 0 35px;
+	color: #666;
+}
+
+.phone{
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	padding: 0 35px;
+	color: #666;
+}
+
+.prize{
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	padding: 0 35px;
+	color: #666;
+}
+
+
+
+
+
+
+
+
+
+/*banner部分*/
+
+
+.banner_center{
+	width: 1200px;
+	height: 270px;
+	margin: 0px auto;
+/*	background-color: pink;*/
+}
+
+
+.banner_menu li{
+	background: url(../images/icons.png) no-repeat 178px -384px;	
+}
+
+.banner_menu li a{
+	display: inline-block;
+	width: 198px;
+	height: 44px;
+	border: 1px solid #eee;
+	margin-top: -1px;
+	line-height: 44px;
+	text-indent: 71px;
+	color: #333;
+	font-size: 14px;
+}
+
+.icon01{
+	background: url(../images/icons.png) no-repeat 33px -90px;
+}
+.icon02{
+	background: url(../images/icons.png) no-repeat 29px -139px;
+}
+.icon03{
+	background: url(../images/icons.png) no-repeat 29px -188px;
+}
+.icon04{
+	background: url(../images/icons.png) no-repeat 32px -238px;
+}
+.icon05{
+	background: url(../images/icons.png) no-repeat 29px -289px;
+}
+.icon06{
+	background: url(../images/icons.png) no-repeat 29px -337px;
+}
+
+
+
+
+/*新鲜水果*/
+.fruit_center{
+	width: 1200px;
+	height: 270px;
+	margin: 0px auto;
+/*	background-color: pink;*/
+	margin-top: 40px;
+
+}
+
+.fruit_menu{
+	height: 35px;
+	border-bottom: 2px solid green;
+}
+
+.fruit_center .fruit_menu h1{
+	font-size: 16px;
+	color: #37ab40;
+	line-height: 35px;
+}
+
+
+.fruit_center ul{
+    float: left;
+    height: 12px;
+    border-left: 1px solid #666;
+    margin: 12px 0 0 12px;
+}
+
+
+.fruit_center ul li{
+	font-size: 14px;
+	line-height: 35px;
+	color: #666;
+	margin-left: 15px;
+	line-height: 12px;
+}
+
+.fruit_center .fruit_menu h2{
+	float: right;
+	color: grey;
+	font-size: 14px;
+	line-height: 35px;
+}
+
+.goods_list{
+	float: left;
+	width: 1000px;
+    height: 300px;
+ 	background: #eee;
+}
+
+
+.goods_list_border{
+	float: left;
+	width: 249px;
+    height: 299px;
+    border: 1px solid black;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

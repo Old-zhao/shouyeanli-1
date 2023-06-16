@@ -1,0 +1,65 @@
+/*清空标签间距*/
+
+body,p,h1,h2,h3,h4,h5,h6,ul,dl,dt,form,input{
+	margin: 0px;
+	padding: 0px;
+}
+
+ul,ol{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+/*设置字体不倾斜*/
+em{
+	font-style: normal;
+}
+
+/*设置在ie下图片做链接时生成的边框*/
+img{
+	border: 0px;
+}
+
+/*让h标签继承body中字体大小的设置*/
+h1,h2,h3,h4,h5,h6{
+	font-size: 100%;
+}
+
+/*清除浮动，解决塌陷*/
+。clearfix:before,.clearfix:after{
+	content: "";
+	display: table;
+}
+.clearfix:after{
+	clear: both;
+}
+.clearfix{
+	zoom: 1;
+}
+
+/*左浮动类*/
+.fl{
+	float:left;
+}
+/*右浮动类*/
+.fr{
+	float:right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
