@@ -3,8 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <title>天天生鲜</title>
-    <link rel="stylesheet" type="text/css" href="./css/reset.css">
-    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="../src/css/main.css">
+    <link rel="stylesheet" type="text/css" href="../src/css/reset.css">
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    
+
 </head>
 <body>
     <!--顶部登录条-->
@@ -71,7 +74,18 @@
             <li><a href="#" class="icon05">新鲜水果</a></li>
             <li><a href="#" class="icon06">新鲜水果</a></li>
         </ul>
-        <img src="./images/slide.jpg" class="fl">
+        <div class="banner fl">
+            <input type="button" id="previous">
+            <input type="button" id="next">
+            <div class="point">
+                <span class="shower"></span>
+                <span class="normal"></span>
+                <span class="normal"></span>
+                <span class="normal"></span>
+            </div>
+        </div>
+
+       
         <img src="./images/adv01.jpg" class="fl">
         <img src="./images/adv02.jpg" class="fl">
 
@@ -95,39 +109,14 @@
             <ul class="goods_list_border">
                 <li>
                     <a href="#">
-                        <img src="goods.jpg">
+                        <img src="">
                     </a>
                 </li>
             </ul>
         </div>
     </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <script src="../src/js/main.js"></script>
     </div>
 </body>
 </html>

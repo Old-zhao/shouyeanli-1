@@ -254,8 +254,52 @@
 	background: url(../images/icons.png) no-repeat 29px -337px;
 }
 
+.banner{
+	width: 755px;
+	height: 270px;
+	position: relative;
+	background: url(../images/slide.jpg)  no-repeat;
+}
+ .banner #previous{
+	background-image: url(../images/left.png);
+	background-repeat:no-repeat;
+	background-color: rgba(3, 3, 3, 0.5);
+	border: none;
+	width: 32px;
+	height: 32px;
+	position: relative;
+	left: 20px;
+	top: 118px;
+ }
 
+ .banner #next{
+	background-image: url(../images/right.png);
+	background-repeat:no-repeat;
+	background-color: rgba(3, 3, 3, 0.5);
+	border: none;
+	width: 32px;
+	height: 32px;
+	position: absolute;
+	right: 20px;
+	top: 118px;
+ }
+.point span{
+	display: inline-block;
+	border: solid 1px #666;
+	width: 8px;
+	height: 8px;
+	border-radius: 40%;
+ }
 
+ .point{
+	position: absolute;
+	bottom: 10px;
+	left: 350px;
+ }
+
+ .point .shower{
+	background-color: #999;
+ }
 
 /*新鲜水果*/
 .fruit_center{
